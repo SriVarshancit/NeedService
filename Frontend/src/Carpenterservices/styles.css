@@ -1,0 +1,209 @@
+/* 
+
+main {
+  background-color: #EDFDED;
+  max-width: 1200px;
+  margin: auto;
+  min-height: 100vw;
+} */
+
+h2 {
+  padding: 20px 0px;
+  text-align: center;
+  color: white;
+}
+
+.card-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin:  0px 10px;
+
+}
+
+.card2{
+  width: 620px;
+  padding: 20px;
+  margin-top: 80px;
+  margin-right: 160px;
+  
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  background-color: white;
+}
+
+.card2:hover {
+  box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.15);
+}
+.card2 > img {
+  border-radius: 2px;
+  max-width: 946px;
+  margin-bottom: 10px;
+  height: 400px;
+}
+
+.card2 h3 {
+  color: purple;
+}
+
+.card2 p {
+  color: #ffffff;
+  line-height: 1.5;
+  padding-top: 10px;
+}
+
+
+
+.card3{
+  position: -webkit-sticky;
+  width: 280px;
+  padding: 20px;
+  margin-top: 80px;
+  margin-right: 60px;
+  margin-bottom: 80px;
+  height: 180px;
+  
+  border: 1px solid #d7d7d7;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  background-color: white;
+}
+
+.card3:hover {
+  box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.15);
+}
+.card3 > img {
+  border-radius: 2px;
+  max-width: 946px;
+  margin-bottom: 10px;
+  height: 400px;
+}
+
+.card3 h3 {
+  color: purple;
+}
+
+.card3 p {
+  color: #ffffff;
+  line-height: 1.5;
+  padding-top: 10px;
+}
+
+
+.book {
+  border: rgb(255, 255, 255) solid 1px;
+  margin-top: 25px;
+  padding: 23px;
+  width: 200px;
+  margin-left: 12px;
+  color: rgb(255, 255, 255);
+  background-size: 200%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  padding-top: 9px;
+  background-image: linear-gradient(to right, #895cf2 0%, #ffabf4 50%, #895cf2 100%);
+
+
+}
+
+
+
+.book:hover {
+  background-position: right;
+
+}
+
+
+.card4 {
+
+  width: 80vw;
+  padding: 20px;
+  margin-top: 80px;
+  margin-right: 160px;
+  margin-left: 2em;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  background-color: white;
+
+
+}
+
+.card4 p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+white-space:inherit ;
+}
+
+
+
+
+
+.card5{
+  position: -webkit-sticky;
+  width: 450px;
+  padding: 20px;
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  height: 45vh;
+  margin-left: 2em;
+  
+  border: 1px solid #d7d7d7;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  background-color: white;
+}
+
+.card5:hover {
+  box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.15);
+}
+.card5 > img {
+  border-radius: 2px;
+  max-width: 946px;
+  margin-bottom: 10px;
+  height: 400px;
+}
+
+
+ .card5 .content{
+  position: relative;
+  text-align: left;
+  padding: 20px;
+ 
+}
+.card5 h3 {
+  color: purple;
+}
+
+.card5 p {
+  color: #ffffff;
+  line-height: 1.5;
+  padding-top: 10px;
+}
+
+
+.book {
+  border: rgb(255, 255, 255) solid 1px;
+  margin-bottom: 65px;
+  padding: 23px;
+  width: 200px;
+  margin-left: 12px;
+  color: rgb(255, 255, 255);
+  background-size: 200%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  padding-top: 9px;
+  background-image: linear-gradient(to right, #895cf2 0%, #ffabf4 50%, #895cf2 100%);
+
+
+}
+
+
+
+.book:hover {
+  background-position: right;
+
+}

@@ -1,0 +1,63 @@
+.app-header {
+    height: 70px;
+    position: fixed;
+    z-index: 10;
+    margin-right: 10px;
+    margin-top:0px;
+    padding-top: -20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 98.9vw;
+    border: 3px solid #895cf2 ;
+    
+    
+
+   
+}
+
+.app-title {
+    line-height: 0px;
+    vertical-align: middle;
+    font-size: 1.35em;
+  
+}
+.app-branding {
+    float: left;
+    margin-top: 15px;
+    opacity:2;
+}
+
+.app-options {
+    float: right;
+}
+
+.app-nav ul {
+    list-style-position: none;
+    margin: 0 ;
+    padding: 0;
+    
+    
+
+}
+
+.app-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.app-nav ul li a {
+    display: inline-block;
+    line-height: 60px;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:#00a6e4;
+}
+
+.app-nav ul li a:hover {
+    color: #71bfff;
+}
+
+.app-nav ul li a.active {
+    color: #000000;
+}
